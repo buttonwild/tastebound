@@ -1,0 +1,24 @@
+# Secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+*.egg-info/
+
+# OS / editor
+.DS_Store
+__MACOSX/
+._*
+.idea/
+.vscode/
+
+# Never commit cached third-party API responses (Qloo terms)
+cache/
+*.cache.json

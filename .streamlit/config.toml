@@ -1,0 +1,13 @@
+[server]
+headless = true
+
+[browser]
+gatherUsageStats = false
+
+[theme]
+primaryColor = "#76B900"
+
+[client]
+# Never show tracebacks (which can include internals) to public viewers
+showErrorDetails = false
+toolbarMode = "viewer"
